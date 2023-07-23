@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.pensiondisbursement.controller.PensionDisbursementControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 12.124 s <<< FAILURE! - in com.pensiondisbursement.controller.PensionDisbursementControllerTest
+testGetPensionDisbursementSuccess  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pensionDisbursementController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'myconfig.firstProperty' in value "${myconfig.firstProperty}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'myconfig.firstProperty' in value "${myconfig.firstProperty}"
+
+testGetPensionDisbursementUnkownError  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pensionDisbursementController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'myconfig.firstProperty' in value "${myconfig.firstProperty}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'myconfig.firstProperty' in value "${myconfig.firstProperty}"
+
+testGetPensionDisbursementServiceChargeNotPaid  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pensionDisbursementController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'myconfig.firstProperty' in value "${myconfig.firstProperty}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'myconfig.firstProperty' in value "${myconfig.firstProperty}"
+
